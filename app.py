@@ -47,7 +47,7 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 # 6) Četvrta slika veća
 st.subheader("Statistical test for residuals and estimation of error")
-st.image(img3, caption="", width=1000)
+st.image(img4, caption="", width=1000)
 
 
 # razmak
