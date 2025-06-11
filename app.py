@@ -47,7 +47,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.image(img3, caption="", use_container_width=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
 
-st.subheader("Fig 4: Statistical test for residuals and estimation of error")
+st.subheader("Statistical test for residuals and estimation of error")
 st.markdown("<br>", unsafe_allow_html=True)
 st.image(img4, caption="", use_container_width=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
