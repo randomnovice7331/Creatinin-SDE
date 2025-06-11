@@ -3,19 +3,19 @@ from PIL import Image
 
 # Lista točnih naziva tvojih slika
 images = [
-    "1 creatinine_data_with_caption.png",
-    "2 plot_of_data_and_simulation_with_caption.png",
-    "3 combinedFig3.png",
-    "4 fig4.png"
+    "Fig1_1200.webp",
+    "Fig2_2000.webp",
+    "Fig3_1800.webp",
+    "Fig4_1800.webp"
 ]
 captions = [
-    "Kreatinin: vremenski niz",
-    "Podaci i simulacija",
-    "Model i objašnjenje simbola",
-    "Statistička provjera reziduala i prosječne greške"
+    "Creatinin: raw data",
+    "Plot of data and simulation",
+    "Form of the model and meaning of symbols",
+    "Statistical test for residuals and estimation of error"
 ]
 
-st.title("Modeliranje kreatinina u krvi (SDE projekt)")
+st.title("Modeling Creatinine concentration in the blood for a chronic kidney disease patient (SDE project)")
 for path, cap in zip(images, captions):
     img = Image.open(path)
     st.image(img, caption=cap, use_container_width=True)
