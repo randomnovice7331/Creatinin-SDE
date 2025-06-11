@@ -32,18 +32,22 @@ img3 = Image.open("Fig3_1800.webp")
 img4 = Image.open("Fig4_1800.webp")
 
 # ── 5. Prikaz slika s različitim veličinama i razmacima ─────────────────────────  
-st.subheader("Fig 1: Creatinin: raw data")
+st.subheader("Creatinin: raw data")
+st.markdown("<br>", unsafe_allow_html=True)
 st.image(img1, caption="",width=500)    # manja prva slika
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.subheader("Fig 2: Plot of data and simulation")
+st.subheader("Plot of data and simulation")
+st.markdown("<br>", unsafe_allow_html=True)
 st.image(img2, caption="", width=1500)   # veća druga slika
 st.markdown("<br><br>", unsafe_allow_html=True)
 
-st.subheader("Fig 3: Form of the model and meaning of symbols")
+st.subheader("Form of the model and meaning of symbols")
+st.markdown("<br>", unsafe_allow_html=True)
 st.image(img3, caption="", use_container_width=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.subheader("Fig 4: Statistical test for residuals and estimation of error")
+st.markdown("<br>", unsafe_allow_html=True)
 st.image(img4, caption="", use_container_width=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
